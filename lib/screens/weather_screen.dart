@@ -13,7 +13,7 @@ class WeatherScreen extends StatefulWidget {
   State<WeatherScreen> createState() => _WeatherScreenState();
 }
 
-const apiKey = '22593e658635b67745939383b6969113'; // Replace with your API key
+const apiKey = 'YOUR_API_KEY'; // Replace with your API key
 
 Future<WeatherModel> fetchWeather(String cityName) async {
   final response = await http.get(Uri.parse(
