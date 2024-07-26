@@ -18,7 +18,7 @@ Follow these steps to set up and run the Weather App:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/BalajiReddy1/weather-app.git
 cd weather-app
 ```
 
