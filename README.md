@@ -20,4 +20,17 @@ Follow these steps to set up and run the Weather App:
 ```bash
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
+```
+
+### Install Dependencies
+``` flutter pub get ```
+
+### Configure API Key
+- Obtain Obtain an API key from [OpenWeatherMap](https://openweathermap.org/)
+- Add your API key to the weather_screen.dart file in the apiKey constant:
+  - const apiKey = 'YOUR_API_KEY_HERE';
+
+### Run the application
+- flutter run
+
 
